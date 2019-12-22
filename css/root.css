@@ -8,6 +8,7 @@
     --yellow: #ffcb02;
     --dark: #1e2020;
     --dark__light: #282929;
+    --white: #fff;
 }
 
 *,
@@ -26,6 +27,7 @@ h6 {
     list-style: normal;
     box-sizing: border-box;
     font-family: var(--ps);
+    list-style: none;
 
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,55 @@
     <link rel="stylesheet" href="css/media.css">
     <title>Мои работы</title>
 </head>
-<body>
-    
 
-    <script src="js/bootstrap.js"></script>
+<body>
+    <header class="header">
+        <div class="header__nav">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto"><a href="" class="logo"><span class="logo__word">My</span>Works</a></div>
+                    <div class="col-auto">
+                        <ul class="header__menu">
+                            <li><a href="" class="header__menu-link">История</a></li>
+                            <li><a href="" class="header__menu-link">Работы</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="header__menu-link" href="#" role="button" id="header__menu-drop"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Контакты
+                                    </a>
+
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="#header__menu-drop">
+                                        <a class="dropdown-item dropdown-item_bb-dark" href="tel:+998909118203">(+99890) 911-82-03</a>
+                                        <a class="dropdown-item"
+                                            href="mailto:andruksaw@gmail.com">andruksaw@gmail.com</a>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <h1 class="header__content-title">моё портфолио</h1>
+                <p class="header__content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l</p>
+            </div>
+        </div>
+    </header>
+
+
     <script src="js/jquery.js"></script>
     <script src="js/poper.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
 
 <!-- git init - инициализация проекта репозитория-->
