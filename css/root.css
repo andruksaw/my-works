@@ -1,5 +1,5 @@
 @import 'fonts.css';
-@import 'icon';
+@import 'icon.css';
 
 :root {
     --ps: 'product-sans';
@@ -24,7 +24,6 @@ h6 {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    list-style: normal;
     box-sizing: border-box;
     font-family: var(--ps);
     list-style: none;
