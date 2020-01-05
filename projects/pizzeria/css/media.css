@@ -1,0 +1,130 @@
+@media(min-width:320px) {
+
+    /* Самый маленький xs */
+    .col {
+        width: auto;
+        padding: 0 15px;
+    }
+
+    .col-1 {
+        width: var(--col-1);
+        padding: 0 15px;
+    }
+
+    .col-2 {
+        width: var(--col-2);
+        padding: 0 15px;
+    }
+
+    .col-3 {
+        width: var(--col-3);
+        padding: 0 15px;
+    }
+
+    .col-4 {
+        width: var(--col-4);
+        padding: 0 15px;
+    }
+
+    .col-5 {
+        width: var(--col-5);
+        padding: 0 15px;
+    }
+
+    .col-6 {
+        width: var(--col-6);
+        padding: 0 15px;
+    }
+
+    .col-7 {
+        width: var(--col-7);
+        padding: 0 15px;
+    }
+
+    .col-8 {
+        width: var(--col-8);
+        padding: 0 15px;
+    }
+
+    .col-9 {
+        width: var(--col-9);
+        padding: 0 15px;
+    }
+
+    .col-10 {
+        width: var(--col-10);
+        padding: 0 15px;
+    }
+
+    .col-11 {
+        width: var(--col-11);
+        padding: 0 15px;
+    }
+
+    .col-12 {
+        width: var(--col-12);
+        padding: 0 15px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    .justify-xs-center{
+        justify-content: center;
+    }
+
+    .text-align-xs-center{
+        text-align: center;
+    }
+}
+
+@media(min-width:576px) {
+
+    /* размер sm мылый размер экрана*/
+    .col-sm-6 {
+        width: var(--col-6);
+        padding: 0 15px;
+    }
+
+    .header-title {
+        font-size: 40px;
+    }
+
+    .justify-sm-center{
+        justify-content: center;
+    }
+
+    .text-align-sm-center{
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) {
+
+    /* размер md средний размер экрана */
+    .col-md-4 {
+        width: var(--col-4);
+        padding: 0 15px;
+    }
+
+    .header-title {
+        font-size: 50px;
+    }
+}
+
+@media(min-width:992px) {
+
+    /* размер lg больше среднего размер экрана */
+    .header-title {
+        font-size: 60px;
+    }
+}
+
+@media(min-width:1200px) {
+
+    /* размер xl большой размер экрана */
+    .header-title {
+        font-size: 72px;
+    }
+}

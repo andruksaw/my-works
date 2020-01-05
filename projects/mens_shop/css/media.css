@@ -1,0 +1,76 @@
+@media(max-width:991px){
+    .logo{
+        font-size: 60px;
+        font-family: 'helvetica';
+        text-transform: uppercase;
+        display: block;
+        text-align: center;
+        font-weight: 700;
+    }
+    header .navbar-toggler{
+        background: black;
+        color: white;
+        padding: 20px;
+    }
+    header nav ul{
+        background: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    header nav ul li{
+        margin: 0;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    header nav ul li a{
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        position: relative;
+    }
+    .navbar-toggler i{
+        position: absolute;
+        right: 20px;
+        transition: 2s;
+        font-size: 20px;
+    }
+    .navbar-toggler[aria-expanded="true"] .open-icon {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded="false"] .close-icon {
+        opacity: 0;
+    }
+    .nav-card{
+        width: 100%;
+        margin: 0;
+    }
+    .slider-content{
+        justify-content: center;
+    }
+    .slider-desc h1{
+        font-size: 50px;
+        margin: 20px 0;
+    }
+    .main-social{
+        padding: 20px 0;
+    }
+ 
+    .main-social form input{
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+}
+@media(max-width:767px){
+    .main-social form{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:400px){
+    .logo{
+        font-size: 45px;
+    }
+}

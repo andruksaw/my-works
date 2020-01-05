@@ -1,0 +1,14 @@
+@import 'fonts.css';
+
+:root {
+    /* colors */
+    --green: #007d2f;
+    --white: #ffffff;
+    --grey: #787878;
+    --dark: #1d1d1d;
+    /* fonts */
+    --f100: 'Montserrat-Thin';
+    --f400: 'Montserrat-Regular';
+    --f500: 'Montserrat-Medium';
+}
+

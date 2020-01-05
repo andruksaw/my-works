@@ -15,6 +15,7 @@
 ul,
 p,
 a,
+li,
 h1,
 h2,
 h3,
@@ -27,7 +28,6 @@ h6 {
     box-sizing: border-box;
     font-family: var(--ps);
     list-style: none;
-
 }
 
 img {

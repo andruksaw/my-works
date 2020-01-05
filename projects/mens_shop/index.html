@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="pre-nav">
+            <div class="container">
+                <div class="row justify-content-center justify-content-lg-between align-items-center">
+                    <div class="col-auto">
+                        <a href="tel:+998907417839">наш номер:+998907417839</a>
+                    </div>
+                    <div class="col-auto d-flex">
+                        <div class="dropdown">
+                            <button class="dropdown-toggle pre-nav__btn" type="button" id="change-lang"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                RUS
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="change-lang">
+                                <a class="dropdown-item" href="#">UZB</a>
+                                <a class="dropdown-item" href="#">ENG</a>
+                                <a class="dropdown-item" href="#">CH</a>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="pre-nav__btn" data-toggle="modal" data-target="#my-acount">
+                            <i class="fas fa-user"></i>мой акаунт
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="my-acount" tabindex="-1" role="dialog"
+                            aria-labelledby="my-acountLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="my-acountLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="user-login">Ваш логин</label>
+                                                <input type="text" class="form-control" id="user-login"
+                                                    aria-describedby="textHelp" placeholder="Введите Ваш логин">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="user-pass">Ваш пароль</label>
+                                                <input type="password" class="form-control" id="user-pass"
+                                                    placeholder="Введите Ваш пароль">
+                                            </div>
+                                            <div class="form-group form-check">
+                                                <input type="checkbox" class="form-check-input" id="remember-me">
+                                                <label class="form-check-label" for="remember-me">Запомнить</label>
+                                            </div>
+                                            <button type="submit" class="btn btn-primary">Вход</button>
+                                            <button type="reset" class="btn btn-primary">Очистить</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="pre-nav__btn" data-toggle="modal" data-target="#search-form">
+                            <i class="fab fa-searchengin"></i>
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="search-form" tabindex="-1" role="dialog"
+                            aria-labelledby="search-formLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <form class="form-inline">
+                                            <div class="form-group flex-grow-1">
+                                                <input type="text" class="w-100 form-control mr-2"
+                                                    placeholder="напишите текст для поиска" id="staticEmail2">
+                                            </div>
+                                            <button type="submit" class="btn btn-primary"><i
+                                                    class="fab fa-searchengin"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-lg-auto">
+                        <a href="" class="logo">Mens Shop</a>
+                    </div>
+
+                    <div class="col-12 col-lg-auto d-flex align-items-center ml-lg-auto flex-column">
+                        <button class="d-block d-lg-none navbar-toggler d-flex w-100 justify-content-between"
+                            type="button" data-toggle="collapse" data-target="#open-menu"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            меню <i class="fas fa-bars open-icon"></i> <i class="fal fa-times close-icon"></i>
+                        </button>
+                        <ul class="d-lg-flex align-items-center navbar-collapse collapse" id="open-menu">
+                            <li><a href="">Главная</a></li>
+                            <li><a href="">Ассортимент</a></li>
+                            <li><a href="">Что жарко?</a></li>
+                            <li><a href="">Скидки</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="col-12 col-lg-auto">
+                        <div class="nav-card">
+                            <div class="dropdown">
+                                <button class="nav__drop-down" type="button" id="choose-card" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Ваша карта <i class="fad fa-angle-down"></i>
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="choose-card">
+                                    <a class="dropdown-item" href="#">ваша карта 1</a>
+                                    <a class="dropdown-item" href="#">ваша карта 2</a>
+                                    <a class="dropdown-item" href="#">ваша карта 3</a>
+                                </div>
+                            </div>
+                            <p><i class="fas fa-shopping-bag"></i> <span>0 ПОКУПОК | $ 0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="header-slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="slider-content d-flex flex-wrap align-items-center">
+                            <div class="slider-desc">
+                                <h1>mENS COLLECTION</h1>
+                                <a class="buy-now" href="">купить сейчас <i class="fas fa-hand-point-right"></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            </div>
+                            <div class="slider-image">
+                                <img src="images/man-slider.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="slider-content d-flex flex-wrap align-items-center">
+                            <div class="slider-desc">
+                                <h1>mENS COLLECTION</h1>
+                                <a class="buy-now" href="">купить сейчас <i class="fas fa-hand-point-right"></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            </div>
+                            <div class="slider-image">
+                                <img src="images/man-slider.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="slider-content d-flex flex-wrap align-items-center">
+                            <div class="slider-desc">
+                                <h1>mENS COLLECTION</h1>
+                                <a class="buy-now" href="">купить сейчас <i class="fas fa-hand-point-right"></i></a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            </div>
+                            <div class="slider-image">
+                                <img src="images/man-slider.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#header-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#header-slider" data-slide-to="1"></li>
+                <li data-target="#header-slider" data-slide-to="2"></li>
+            </ol>
+            <a class="carousel-control-prev" href="#header-slider" role="button" data-slide="prev">
+                <i class="far fa-angle-double-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#header-slider" role="button" data-slide="next">
+                <i class="far fa-angle-double-right"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="main-social">
+            <div class="container d-flex justify-content-center justify-content-md-between align-items-center flex-wrap">
+                <form action="">
+                    <input type="email" placeholder="Ваша почта на подписку">
+                    <button type="submit">
+                        <span class="d-none d-lg-block">Подписаться</span>
+                        <i class="fas fa-plus d-block d-lg-none"></i>
+                    </button>
+                </form>
+                <div class="main-social__media d-flex align-items-center">
+                    <p>Наши соц сети</p>
+                    <ul class="d-flex">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-collage pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 mb-4 mb-md-0">
+                        <img src="images/product.jpg" alt="">
+                    </div>
+                    <div class="col-5 col-md-3 d-flex flex-column justify-content-between">
+                        <img src="images/product-1.jpg" alt="">
+                        <img src="images/product-2.jpg" alt="">
+                    </div>
+                    <div class="col-7 col-md-4">
+                        <img src="images/product-3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="main-tab">
+            <div class="container">
+                <ul class="nav nav-tabs" id="main-tab__for-slider" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="what-hot-tab" data-toggle="tab" href="#what-hot" role="tab"
+                            aria-controls="what-hot" aria-selected="true">what-hot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
+                            aria-controls="design" aria-selected="false">design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="collection-tab" data-toggle="tab" href="#collection" role="tab"
+                            aria-controls="collection" aria-selected="false">collection</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="discoun-tab" data-toggle="tab" href="#discoun" role="tab"
+                            aria-controls="discoun" aria-selected="false">discoun</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="tab-content" id="main-tab__for-sliderContent">
+                <div class="tab-pane fade show active" id="what-hot" role="tabpanel" aria-labelledby="what-hot-tab">
+                    <div class="container">
+                        <div id="main-tab__slider-what-hot" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="main-tab__slider-controls_p" href="#main-tab__slider-what-hot" role="button"
+                                data-slide="prev">
+                                <i class="fal fa-chevron-left"></i>
+                            </a>
+                            <a class="main-tab__slider-controls_n" href="#main-tab__slider-what-hot" role="button"
+                                data-slide="next">
+                                <i class="fal fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                    <div class="container">
+                        <div id="main-tab__slider-design" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="main-tab__slider-controls_p" href="#main-tab__slider-design" role="button"
+                                data-slide="prev">
+                                <i class="fal fa-chevron-left"></i>
+                            </a>
+                            <a class="main-tab__slider-controls_n" href="#main-tab__slider-design" role="button"
+                                data-slide="next">
+                                <i class="fal fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="collection" role="tabpanel" aria-labelledby="collection-tab">
+                    <div class="container">
+                        <div id="main-tab__slider-collection" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="main-tab__slider-controls_p" href="#main-tab__slider-collection" role="button"
+                                data-slide="prev">
+                                <i class="fal fa-chevron-left"></i>
+                            </a>
+                            <a class="main-tab__slider-controls_n" href="#main-tab__slider-collection" role="button"
+                                data-slide="next">
+                                <i class="fal fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="discoun" role="tabpanel" aria-labelledby="discoun-tab">
+                    <div class="container">
+                        <div id="main-tab__slider-discoun" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$130.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$230.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$330.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 col-lg-3">
+                                            <div class="product-card">
+                                                <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                                                <img src="images/tab-slider.jpg" alt="">
+                                                <div class="product-card__desc">
+                                                    <h3 class="product-card__title">Рубашка</h3>
+                                                    <p class="product-card__price">$430.00</p>
+                                                    <a href="" class="buy-now">купить сейчас<i
+                                                            class="fas fa-caret-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="main-tab__slider-controls_p" href="#main-tab__slider-discoun" role="button"
+                                data-slide="prev">
+                                <i class="fal fa-chevron-left"></i>
+                            </a>
+                            <a class="main-tab__slider-controls_n" href="#main-tab__slider-discoun" role="button"
+                                data-slide="next">
+                                <i class="fal fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-discount">
+            <div class="container">
+                <div class="main-discount__logo">
+                    <img src="images/discount-logo.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                            <img src="images/tab-slider.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h3 class="product-card__title">Рубашка</h3>
+                                <p class="product-card__price">$130.00</p>
+                                <a href="" class="buy-now">купить сейчас<i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                            <img src="images/tab-slider.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h3 class="product-card__title">Рубашка</h3>
+                                <p class="product-card__price">$230.00</p>
+                                <a href="" class="buy-now">купить сейчас<i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                            <img src="images/tab-slider.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h3 class="product-card__title">Рубашка</h3>
+                                <p class="product-card__price">$330.00</p>
+                                <a href="" class="buy-now">купить сейчас<i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="product-card">
+                            <div class="product-card__sale"><span>sale</span><span>50%</span></div>
+                            <img src="images/tab-slider.jpg" alt="">
+                            <div class="product-card__desc">
+                                <h3 class="product-card__title">Рубашка</h3>
+                                <p class="product-card__price">$430.00</p>
+                                <a href="" class="buy-now">купить сейчас<i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-shop">
+            <div class="about-shop__brands">
+                <p>favourite brands</p>
+                <ul class="d-flex flex-wrap justify-content-center align-items-center">
+                    <li><a href=""><img src="images/brand_1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_4.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_5.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_6.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_7.jpg" alt=""></a></li>
+                    <li><a href=""><img src="images/brand_8.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="about-shop__us">
+                <h3>ПОДРОБНЕЕ О MANS SHOP</h3>
+                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2">
+                    <h4>Наш сервис</h4>
+                    <ul>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Terms of payment</a></li>
+                        <li><a href="">Terms of sale</a></li>
+                        <li><a href="">Delivery terms and conditions</a></li>
+                        <li><a href="">Returns and Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="">Affiliate</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">How to Shop</a></li>
+                        <li><a href="">About Nelly</a></li>
+                        <li><a href="">Investor relations</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2">
+                    <h4>Компании </h4>
+                    <ul>
+                        <li><a href="">Evening dresses</a></li>
+                        <li><a href="">Makeup</a></li>
+                        <li><a href="">Fashion forward</a></li>
+                        <li><a href="">training clothes</a></li>
+                        <li><a href="">Special Occasion Dresses</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2">
+                    <h4>История</h4>
+                    <ul>
+                        <li><a href="">Paris</a></li>
+                        <li><a href="">New York</a></li>
+                        <li><a href="">London</a></li>
+                        <li><a href="">Madrid</a></li>
+                        <li><a href="">Tokio</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2">
+                    <h4>Соц сети</h4>
+                    <ul>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href=""><i class="fab fa-tumblr"></i></a></li>
+                        <li><a href=""><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-2"><img src="images/secured.png" alt=""></div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/poper.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+</body>
+
+</html>

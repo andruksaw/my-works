@@ -1,0 +1,168 @@
+@media(max-width:320px) {
+    .header__menu-link {
+        font-size: 10px;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .log {
+        margin: 0 auto;
+    }
+
+    .header__content-title {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header__content-desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .history__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .study__title {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .study__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .works__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .main__possibilities-tittle {
+        margin-top: 20px;
+    }
+
+    .card-body {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__menu-link {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__tel {
+        font-size: 10px;
+    }
+
+    .footer__mail {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:576px) {
+    .hn {
+        margin: 0 auto;
+    }
+
+    .header__menu-link {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+
+    .hml1 {
+        margin-left: 0;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .logotype {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .header__content-title {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header__content-desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .history__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .study__title {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .study__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .study__slider-prev {
+        display: none;
+    }
+
+    .study__slider-next {
+        display: none;
+    }
+
+    .works__desc {
+        font-size: 10px;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .main__possibilities-tittle {
+        margin-top: 20px;
+    }
+
+    .card-body {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__menu-link {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer__tel {
+        font-size: 10px;
+    }
+
+    .footer__mail {
+        font-size: 10px;
+    }
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:992px) {}
+
+@media(max-width:1200px) {}

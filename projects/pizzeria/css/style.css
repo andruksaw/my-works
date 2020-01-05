@@ -1,0 +1,252 @@
+@import 'root.css';
+
+header {
+    height: 100vh;
+    background: url(../images/header_bg.png) no-repeat center center /cover;
+    color: white;
+    min-height: 600px;
+}
+
+.row {
+    margin-top: 45px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: var(--f700);
+    font-family: var(--f700);
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.phone-number {
+    font-weight: var(--f400);
+    font-size: 24px;
+    color: var(--white);
+    margin-right: 50px;
+}
+
+.phone-back {
+    font-weight: var(--f400);
+    font-family: var(--f400);
+    font-size: 16px;
+    color: var(--white);
+    background: var(--green-light);
+    border: solid var(--green-light) 0px;
+    border-radius: 30px;
+    padding: 20px 25px;
+}
+
+.header-invite {
+    font-family: var(--f900);
+    font-weight: var(--f900);
+    font-size: 18px;
+    color: var(--white);
+}
+
+.header-title {
+    font-family: var(--f900);
+    margin-top: 30px;
+    font-weight: var(--f900);
+    font-size: 72px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.header-subtitle {
+    font-family: var(--f400);
+    margin-top: 40px;
+    font-weight: var(--f400);
+    font-size: 18px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.header-fullmenu {
+    margin-top: 50px;
+    font-weight: var(--f400);
+    font-family: var(--f400);
+    font-size: 16px;
+    color: var(--white);
+    background: var(--green-light);
+    border: solid var(--green-light) 0px;
+    border-radius: 30px;
+    padding: 20px 25px;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* header end */
+/* main start */
+
+.card_admin {
+    margin-top: 80px;
+
+}
+
+.main_admin{
+    max-width: 335px;
+}
+
+.main_about {
+    margin-left: 35px;
+    max-width: 705px;
+}
+
+.main_signature {
+    max-height: 160px;
+    max-width: 160px;
+    margin-left: 65px;
+}
+
+.main_admin_title {
+    margin-bottom: 64px;
+    color: var(--green-light);
+    text-transform: uppercase;
+    font-family: var(--f700);
+    font-size: 36px;
+}
+
+.main_admin_comments {
+    font-family: var(--f400);
+    font-size: 18px;
+    color: var(--grey-dark);
+    line-height: 30px;
+}
+
+.main_admin_name {
+    color: var(--grey-dark);
+    font-family: var(--f700);
+    font-size: 24px;
+}
+
+
+
+h3 {
+    margin-top: 100px;
+    font-family: var(--f700);
+    font-size: 36px;
+    color: #e1f5d0;
+    text-transform: uppercase;
+    margin-left: -15px;
+}
+
+/* row */
+
+.card_image {
+    max-height: 250px;
+    max-width: 350px;
+    position: relative;
+}
+
+.card_image p {
+    position: absolute;
+    color: var(--white);
+    background: var(--green-dark);
+    border-radius: 50%;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+    padding: 22px 10px;
+}
+
+.main_recipe_desc {
+    margin-left: 30px;
+}
+
+h4 {
+    font-family: var(--f700);
+    font-size: 30px;
+    color: var(--grey-dark);
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.main_recipe_desc li {
+    font-family: var(--f400);
+    font-size: 14px;
+    color: var(--grey-dark);
+    line-height: 24px;
+}
+
+.main_price_desc {
+    font-family: var(--f700);
+    font-size: 30px;
+    color: var(--grey-dark);
+}
+
+.main_price_desc span {
+    font-family: var(--f300);
+    font-size: 18px;
+    color: var(--grey-dark);
+}
+
+.main_price_order {
+    margin-top: 30px;
+    font-family: var(--f400);
+    font-size: 16px;
+    color: var(--white);
+    background: var(--green-dark);
+    border: solid;
+    border-radius: 30px;
+    padding: 17px 30px;
+}
+
+/* card */
+
+.card {
+    max-width: 350px;
+}
+
+.card img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+}
+
+/* last main row */
+
+.users {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+h5 {
+    margin-top: 30px;
+    font-family: var(--f700);
+    font-size: 14px;
+    color: var(--grey-dark);
+}
+
+.users .card p {
+    margin-top: 20px;
+    font-family: var(--f400);
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--grey-dark);
+}
+
+/* main end */
+/* footer start */
+
+footer {
+    background: var(--dark);
+    padding: 40px 0 60px 0;
+}
+
+footer .row {
+    margin-bottom: 50px;
+}
+
+footer p {
+    font-family: var(--f100);
+    text-align: center;
+    color: var(--white);
+}

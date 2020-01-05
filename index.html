@@ -2,121 +2,573 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-    <title>Мои работы</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media.css" />
+  <title>Мои работы</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__nav">
-            <div class="container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-auto"><a href="" class="logo"><span class="logo__word">My</span>Works</a></div>
-                    <div class="col-auto">
-                        <ul class="header__menu">
-                            <li><a href="" class="header__menu-link">История</a></li>
-                            <li><a href="" class="header__menu-link">Работы</a></li>
-                            <li>
-                                <div class="dropdown">
-                                    <a class="header__menu-link" href="#" role="button" id="header__menu-drop"
-                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Контакты
-                                    </a>
+  <header class="header">
+    <div class="header__nav">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto logotype">
+            <a href="" class="logo"><span class="logo__word">My</span>Works</a>
+          </div>
+          <div class="col-auto hn">
+            <ul class="header__menu flex-wrap">
+              <li><a href="" class="header__menu-link hml1">История</a></li>
+              <li><a href="" class="header__menu-link">Работы</a></li>
+              <li>
+                <div class="dropdown">
+                  <a class="header__menu-link" href="#" role="button" id="header__menu-drop" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Контакты
+                  </a>
 
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="#header__menu-drop">
-                                        <a class="dropdown-item dropdown-item_bb-dark" href="tel:+998909118203">(+99890)
-                                            911-82-03</a>
-                                        <a class="dropdown-item"
-                                            href="mailto:andruksaw@gmail.com">andruksaw@gmail.com</a>
-
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header__content">
-            <div class="container">
-                <h1 class="header__content-title">моё портфолио</h1>
-                <p class="header__content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l</p>
-            </div>
-        </div>
-    </header>
-
-    <main>
-        <section class="history">
-            <div class="container">
-                <div class="row align-items-center flex-column">
-                    <div class="col-auto">
-                        <h2 class="history__tittle">История</h2>
-                    </div>
-                    <div class="col-11">
-                        <p class="history__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis ostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="study">
-            <div class="container">
-                <div id="study__slider" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <div class="row justify-content-center">
-                            <div class=""></div>
-                            <div class="col-xl-4"><img src="images/slider__img.jpg" alt=""></div>
-                            <div class="col-xl-6">
-                                <h3 class="study__title"><span class="study__title-yellow">обучение в </span>PROWEB</h3>
-                                <p class="study__desc">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class=""></div>
-                            <div class="col-xl-4"><img src="images/slider__img.jpg" alt=""></div>
-                            <div class="col-xl-6">
-                                <h3 class="study__title"><span class="study__title-yellow">обучение в </span>PROWEB</h3>
-                                <p class="study__desc">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="row justify-content-center">
-                            <div class=""></div>
-                            <div class="col-xl-4"><img src="images/slider__img.jpg" alt=""></div>
-                            <div class="col-xl-6">
-                                <h3 class="study__title"><span class="study__title-yellow">обучение в </span>PROWEB</h3>
-                                <p class="study__desc">orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam</p>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-                    <a class="study__slider-prev" href="#study__slider" role="button" data-slide="prev">
-                        <i class="fad fa-angle-left study__slider-icon_color"></i>
-                    </a>
-                    <a class="study__slider-next" href="#study__slider" role="button" data-slide="next">
-                        <i class="fad fa-angle-right study__slider-icon_color"></i>
-                    </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="#header__menu-drop">
+                    <a class="dropdown-item dropdown-item_bb-dark" href="tel:+998909118203">(+99890) 911-82-03</a>
+                    <a class="dropdown-item" href="mailto:andruksaw@gmail.com">andruksaw@gmail.com</a>
                   </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <h1 class="header__content-title">моё портфолио</h1>
+        <p class="header__content-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est l
+        </p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="history">
+      <div class="container">
+        <div class="row align-items-center flex-column">
+          <div class="col-auto">
+            <h2 class="history__tittle">История</h2>
+          </div>
+          <div class="col-11">
+            <p class="history__desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis ostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="study">
+      <div class="container">
+        <div id="study__slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class=""></div>
+                <div class="col-xl-4">
+                  <img src="images/slider__img.jpg" alt="" />
+                </div>
+                <div class="col-xl-6">
+                  <h3 class="study__title">
+                    <span class="study__title-yellow">обучение в </span>PROWEB
+                  </h3>
+                  <p class="study__desc">
+                    orem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
-    </main>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class=""></div>
+                <div class="col-xl-4">
+                  <img src="images/slider__img.jpg" alt="" />
+                </div>
+                <div class="col-xl-6">
+                  <h3 class="study__title">
+                    <span class="study__title-yellow">обучение в </span>PROWEB
+                  </h3>
+                  <p class="study__desc">
+                    orem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class=""></div>
+                <div class="col-xl-4">
+                  <img src="images/slider__img.jpg" alt="" />
+                </div>
+                <div class="col-xl-6">
+                  <h3 class="study__title">
+                    <span class="study__title-yellow">обучение в </span>PROWEB
+                  </h3>
+                  <p class="study__desc">
+                    orem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                    sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum. Sed ut
+                    perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam,
+                    eaque ipsa quae ab illo inventore veritatis et quasi
+                    architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt. Neque porro quisquam
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="study__slider-prev" href="#study__slider" role="button" data-slide="prev">
+            <i class="fad fa-angle-left study__slider-icon_color"></i>
+          </a>
+          <a class="study__slider-next" href="#study__slider" role="button" data-slide="next">
+            <i class="fad fa-angle-right study__slider-icon_color"></i>
+          </a>
+        </div>
+      </div>
+    </section>
 
+    <section class="works">
+      <div class="container">
+        <div class="row align-items-center flex-column">
+          <div class="col-auto">
+            <h2 class="works__tittle">Работы</h2>
+          </div>
+          <div class="col-11">
+            <p class="works__desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/poper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <section class="main-tabs">
+      <div class="container">
+        <ul class="nav nav-tabs" id="main-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="nike-tab" data-toggle="tab" href="#nike" role="tab" aria-controls="nike"
+              aria-selected="true">nike</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " id="silver_house-tab" data-toggle="tab" href="#silver_house" role="tab"
+              aria-controls="silver_house" aria-selected="false">silver_house</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="orange_market-tab" data-toggle="tab" href="#orange_market" role="tab"
+              aria-controls="orange_market" aria-selected="false">orange_market</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="kirieshki-tab" data-toggle="tab" href="#kirieshki" role="tab"
+              aria-controls="kirieshki" aria-selected="false">kirieshki</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="street_88-tab" data-toggle="tab" href="#street_88" role="tab"
+              aria-controls="street_88" aria-selected="false">street_88</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="pizzeria-tab" data-toggle="tab" href="#pizzeria" role="tab" aria-controls="pizzeria"
+              aria-selected="false">pizzeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="mens_shop-tab" data-toggle="tab" href="#mens_shop" role="tab"
+              aria-controls="mens_shop" aria-selected="false">mens_shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="tashkent_travels-tab" data-toggle="tab" href="#tashkent_travels" role="tab"
+              aria-controls="tashkent_travels" aria-selected="false">tashkent_travels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="design_and_develop-tab" data-toggle="tab" href="#design_and_develop" role="tab"
+              aria-controls="design_and_develop" aria-selected="false">design_and_develop</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content">
+        <div class="tab-pane fade show active" id="nike" role="tabpanel" aria-labelledby="nike-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_nike.jpg" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>Nike</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+              <a href="projects/nike/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="silver_house" role="tabpanel" aria-labelledby="silver_house-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_sh.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>silver_house</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/silver_house/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="orange_market" role="tabpanel" aria-labelledby="orange_market-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_om.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>orange_market</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/orange_market/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="kirieshki" role="tabpanel" aria-labelledby="kirieshki-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_kt.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>kirieshki</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/кириешки_tashkent/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="street_88" role="tabpanel" aria-labelledby="street_88-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_s88.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>street_88</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/street_88/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="pizzeria" role="tabpanel" aria-labelledby="pizzeria-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_pizzeria.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>pizzeria</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/pizzeria/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="mens_shop" role="tabpanel" aria-labelledby="mens_shop-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_ms.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>mens_shop</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/mens_shop/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="tashkent_travels" role="tabpanel" aria-labelledby="tashkent_travels-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_tt.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>tashkent_travels</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/tashkent_travels/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-pane fade" id="design_and_develop" role="tabpanel" aria-labelledby="design_and_develop-tab">
+          <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <img class="tab-content__img" src="images/tabs_dad.png" alt="" />
+            <div class="main-tab-content__desc d-flex flex-column justify-content-between flex-grow-1">
+              <div class="mtcd">
+                <h3>design_and_develop</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                  et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip
+                  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                  eu
+                  fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
+                </p>
+              </div>
+
+              <a href="projects/design_and_develop/index.html">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="possibilities">
+      <div class="main__possibilities row flex-column no-gutters">
+        <h2 class="main__possibilities-tittle col-auto">возможности</h2>
+        <div class="accordion col-6 mb-5" id="main__accordeon">
+          <div class="card mb-3">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fab fa-html5"></i>
+                  HTML5
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#main__accordeon">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                aliqua put a bird on it squid single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                beer farm-to-table, raw denim aesthetic synth nesciunt you
+                probably haven't heard of them accusamus labore sustainable
+                VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  <i class="fab fa-css3-alt"></i>
+                  CSS3
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#main__accordeon">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                aliqua put a bird on it squid single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                beer farm-to-table, raw denim aesthetic synth nesciunt you
+                probably haven't heard of them accusamus labore sustainable
+                VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  <i class="fab fa-bootstrap"></i>
+                  BOOTSTRAP4
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#main__accordeon">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
+                aliqua put a bird on it squid single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                beer labore wes anderson cred nesciunt sapiente ea proident.
+                Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                beer farm-to-table, raw denim aesthetic synth nesciunt you
+                probably haven't heard of them accusamus labore sustainable
+                VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer__nav d-flex justify-content-center text-center">
+      <div class="row flex-column align-items-center mt-5">
+        <div class="col-auto mb-5">
+          <a href="" class="logo"><span class="logo__word">My</span>Works</a>
+        </div>
+        <div class="col-auto mb-5">
+          <ul class="footer__menu d-flex flex-wrap">
+            <li><a href="" class="footer__menu-link">История</a></li>
+            <li><a href="" class="footer__menu-link ml-5">Работы</a></li>
+            <li><a href="" class="footer__menu-link ml-5">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="col-auto align-items-center mb-5 cont">
+          <ul class="d-flex flex-wrap">
+            <li>
+              <a href="tel:+998909118203" class="footer__tel">(+99890) 911-82-03</a>
+            </li>
+            <li>
+              <a href="mailto:andruksaw@gmail.com" class="footer__mail ml-3">andruksaw@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/poper.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
