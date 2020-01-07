@@ -265,7 +265,29 @@
     text-align: center;
 }
 
+.nav-tabs {
+    margin-bottom: 30px;
+    border-bottom: none;
+}
 
+.nav-link {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    color: var(--white);
+    background: var(--dark__light);
+}
+
+.nav-link:hover {
+    color: var(--white);
+    background: var(--dark);
+    border: none;
+}
 
 
 
