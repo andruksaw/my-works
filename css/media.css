@@ -138,6 +138,30 @@
         text-align: center;
     }
 
+    .tab-content__img {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .main-tab-content__desc {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+        /* line-height: 20px; */
+        margin-bottom: 10px;
+    }
+
+    .main-tab-content__desc a {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    
+
     .main__possibilities-tittle {
         margin-top: 20px;
     }
